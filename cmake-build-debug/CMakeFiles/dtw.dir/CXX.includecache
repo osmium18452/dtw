@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/dtw/binaryread.h
+
+F:/dtw/recognition.cpp
+string
+-
+sstream
+-
+fstream
+-
+iostream
+-
+cmath
+-
+binaryread.h
+F:/dtw/binaryread.h
+recognition.h
+F:/dtw/recognition.h
+
+F:/dtw/recognition.h
+
