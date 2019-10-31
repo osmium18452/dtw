@@ -40,4 +40,11 @@ some unknown reasons, please use the absolute path instead of the
 relative path (the latter may cause file_not_found error).
     
     1. **Using Clion :** Press `alt + shift + f10`, choose the 
-    `configure` and add the three parameters in the box named 
+    `Edit Configurations...` and add the three parameters in the box 
+    named `parameters` as shown in the picture below.
+    
+<div align="center">
+ <img src="./pic/a.png" width=535 height=335 alt="fig.1" align="centre" />
+</div>
+    
+    
