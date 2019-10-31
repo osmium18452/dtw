@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
 				k = i;
 			}
 		}
-		cout<<fileInfos[j] << '\t' << k << endl;
+//		cout<<fileInfos[j] << '\t' << k << endl;
 		f << fileInfos[j] << '\t' << k << endl;
 	}
 	delete[] fileInfos;

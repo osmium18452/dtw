@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/binaryread.h" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/recognition.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/recognition.h" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/../dtw2/recognition.h" charset="GBK" />
-  </component>
-</project>
