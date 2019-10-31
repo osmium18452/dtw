@@ -15,9 +15,10 @@ const int DVECTOR = 39; // dimension of a frame
 float TemplateVectors[10][MAXNFRAME + 1][DVECTOR + 1]; // stores 10 template.
 int NFTemplate[10]; // number of frames in each template vector
 
-int main(int argc, char *argv[]) {
-	if (argc<3) {
-		cout<<"Too few arguments."<<endl;
+int main(int argc, char *argv[])
+{
+	if (argc < 3) {
+		cout << "Too few arguments." << endl;
 		exit(0);
 	}
 //	printf("%s %s %s\n",argv[0],argv[1],argv[2]);
@@ -25,7 +26,11 @@ int main(int argc, char *argv[]) {
 	string TemplateFolder = argv[1];
 	string TestFileList = argv[2];
 	ofstream f;
-	f.open(argv[3], ios::out);
+	if (argc == 3) {
+	}
+	else {
+		f.open(argv[3], ios::out);
+	}
 	/*---------------- read data from template ---------------------*/
 	for (int i = 0; i < 10; i++) {
 		ostringstream number;
@@ -52,8 +57,16 @@ int main(int argc, char *argv[]) {
 			}
 		}
 //		cout<<fileInfos[j] << '\t' << k << endl;
-		f << fileInfos[j] << '\t' << k << endl;
+		if (argc==3) cout << fileInfos[j] << '\t' << k << endl;
+		else f << fileInfos[j] << '\t' << k << endl;
 	}
 	delete[] fileInfos;
 	return 0;
 }
+
+//CMake Error: The current CMakeCache.txt directory
+// C:/Users/17110/Desktop/dtw/cmake-build-debug/CMakeCache.txt
+// is different than the directory
+// f:/dtw/cmake-build-debug where CMakeCache.txt
+// was created. This may result in binaries being created in the wrong place.
+// If you are not sure, reedit the CMakeCache.txt

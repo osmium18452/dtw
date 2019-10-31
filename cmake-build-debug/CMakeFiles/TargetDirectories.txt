@@ -1,3 +1,3 @@
-F:/dtw/cmake-build-debug/CMakeFiles/dtw.dir
-F:/dtw/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/dtw/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/17110/Desktop/dtw/cmake-build-debug/CMakeFiles/dtw.dir
+C:/Users/17110/Desktop/dtw/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/17110/Desktop/dtw/cmake-build-debug/CMakeFiles/rebuild_cache.dir

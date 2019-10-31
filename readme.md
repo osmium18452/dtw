@@ -35,16 +35,26 @@ directory. Data files are stored in the directory you specified.
 
 2. **[RUN THE CODE]** Below are methods compatible with Windows. You 
 should pass the parameters through the command line. Use the format 
-`dtw template_file_directory test_file_list_file result_file`. Out of 
-some unknown reasons, please use the absolute path instead of the 
-relative path (the latter may cause file_not_found error).
+`dtw template_file_directory test_file_list_file [result_file]`. if you
+didn't fill the last parameter, the result will be output to the 
+console.Out of some unknown reasons, please use the absolute path 
+instead of the relative path (the latter may cause file_not_found 
+error).
     
     1. **Using Clion :** Press `alt + shift + f10`, choose the 
     `Edit Configurations...` and add the three parameters in the box 
-    named `parameters` as shown in the picture below.
+    named `program arguments` as shown in the picture below.
     
-<div align="center">
- <img src="./pic/a.png" width=535 height=335 alt="fig.1" align="centre" />
-</div>
+    <div align="center">
+     <img src="./pic/a.png" width=535 height=335 alt="fig.1" />
+    </div>
     
+    Then you can press `shift + f10` to run the code. result will be 
+    stored in the file you specified.
+    
+    2. **Using Command Line** Change your directory to where the 
+    `dtw.exe` lies. Run the program with the command `dtw 
+    template_file_directory test_file_list_file [result_file]`. If you 
+    didn't specify the last parameter, the result will be shown on your
+    console.
     

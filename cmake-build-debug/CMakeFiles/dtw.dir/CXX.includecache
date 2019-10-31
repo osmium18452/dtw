@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-F:/dtw/binaryread.h
+C:/Users/17110/Desktop/dtw/binaryread.h
 
-F:/dtw/recognition.cpp
+C:/Users/17110/Desktop/dtw/recognition.cpp
 string
 -
 sstream
@@ -20,9 +20,9 @@ iostream
 cmath
 -
 binaryread.h
-F:/dtw/binaryread.h
+C:/Users/17110/Desktop/dtw/binaryread.h
 recognition.h
-F:/dtw/recognition.h
+C:/Users/17110/Desktop/dtw/recognition.h
 
-F:/dtw/recognition.h
+C:/Users/17110/Desktop/dtw/recognition.h
 
