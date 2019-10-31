@@ -17,3 +17,8 @@ directory. Data files are stored in the directory you specified.
 
 ## RUN THE CODE
 
+0. **[OPTIONAL]** Clone the code from my 
+[github](https://github.com/osmium18452/dtw) or with command:
+`git clone git@github.com:osmium18452/dtw.git`.
+
+1.
