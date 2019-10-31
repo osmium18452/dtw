@@ -17,3 +17,23 @@ directory. Data files are stored in the directory you specified.
 
 ## RUN THE CODE
 
+0. **[DOWMLOAD]** Clone the repository from my 
+[github](https://github.com/osmium18452/dtw) or with the command 
+`git clone git@github.com:osmium18452/dtw.git`.
+
+1. **[COMPILE]** Below are methods compatible with Windows. 
+    
+    1. **Using Clion :** Please make sure your Cmake version is 3.15 or 
+    newer. Compile the project with default settings is OK.
+    
+    2. **Using Command Line :** Change your directory to where the 
+    `recognition.cpp` lies and using the command `g++ recognition.cpp -o 
+    dtw.exe`.
+    
+    3. **Using Other IDE :** Change the settings according to your IDE
+    requirement.
+
+2. **[RUN THE CODE]** Below are methods compatible with Windows. You 
+should pass the parameters through the command line. Use the format
+    
+    1. **Using Clion :**  
